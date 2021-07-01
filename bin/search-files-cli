@@ -1,10 +1,12 @@
 #!/usr/bin/env node
+// Comentário será ignorado no RWindows
+// informa que precida ser rodado em ambiente 'node'
 const fs = require('fs')
 const {join} = require('path')
 
 const fileName = process.argv.splice(2, process.argv.length - 1).join()
 
-function searchFiles(filter, startPath = '.'){
+function searchFiles(filter, startPath = '/'){
     const files = fs.readdirSync(startPath)
 
     files.map(filePath => {
@@ -21,3 +23,5 @@ function searchFiles(filter, startPath = '.'){
     })
 
 }
+
+searchFiles(fileName)
