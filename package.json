@@ -1,5 +1,5 @@
 {
-  "name": "buscador de arquivos",
+  "name": "CLI-em-NodeJS",
   "version": "0.0.1",
   "description": "Exemplo de CLI para procurar arquivos em uma pasta",
   "main": "index.js",
