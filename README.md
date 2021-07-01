@@ -19,3 +19,4 @@ Desenvolvendo ferramentas de linha de comando em NodeJS
 - CLI: Ferramenta que disponibiliza uma interface de linha de comando para para execução de tarefas via terminal;
 - Normalmente criados em Shell Script
 - Ele automatiza uma tarefa através de um arquivo executável
+- Para instalar localmente e poder usar o comando no terminal, use o comando: npm link. O comando search-files vai estar disponível no terminal. Você pode usar o comando passando o nome do arquivo que deseja procurar no diretório atual: search-files .json. Neste exemplo, listaria todos os arquivos com a extensão .json.
