@@ -1,0 +1,23 @@
+{
+  "name": "cli-em-nodejs",
+  "version": "0.0.1",
+  "description": "Criação de CLI em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobsonmedeiros/CLI-em-NodeJS.git"
+  },
+  "keywords": [
+    "CLI",
+    "NodeJS"
+  ],
+  "author": "Jobson Medeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jobsonmedeiros/CLI-em-NodeJS/issues"
+  },
+  "homepage": "https://github.com/jobsonmedeiros/CLI-em-NodeJS#readme"
+}
